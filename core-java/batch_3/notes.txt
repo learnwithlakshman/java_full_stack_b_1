@@ -1,0 +1,496 @@
+Programming? 
+
+Program?
+
+Programming Languages?
+
+C, C++, Java, .Net, Python...
+
+Write a program, which accepts three persons age and find the sum and average of their ages.
+
+Variable:
+		 Name given to the memory location is called variable
+Data types: 
+	     Kind data is going to store in the variable is called data types
+	     
+	     Reference :
+	     	String, Object, Employee
+	     	
+	     Primitive : Fundamental data types, this can hold single value
+	     
+			byte, short, char, int, float, double, long, boolean
+			
+Operators: 
+		Arithmetic 
+		Assignment
+		Comparison 
+		Logical
+		Bitwise
+		
+Arithmetic 		
+		+, - , * , / , %
+		
+		
+		
+file with extension : 
+
+	SumAndAverageAge.java
+
+javac: 
+
+    SumAndAverageAge.class ( byte )  => JVM 
+    
+ java SumAndAverageAge   
+    
+
+JSE
+JEE
+JME
+
+java => JDK , JRE , JVM
+
+Reference link: https://docs.oracle.com/javase/tutorial/getStarted/index.html
+
+
+JDK Download:
+
+1. https://www.oracle.com/java/technologies/javase-jdk13-downloads.html
+
+Eclipse:
+
+2. 
+https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2019-12/R/eclipse-jee-2019-12-R-win32-x86_64.zip&mirror_id=1287
+
+Path variables: 
+JAVA_HOME = C:\Program Files\Java\jdk1.8.0_231
+classpath = C:\Program Files\Java\jdk1.8.0_231\lib
+path = C:\Program Files\Java\jdk1.8.0_231\bin
+
+
+Last 10 Min:
+
+https://git-scm.com/downloads
+
+/ 
+% = Remainder 
+
+ 13 / 4.0f => 3
+
+ 
+ >
+ >=
+ <
+ <=
+ ==
+ !=
+ 
+ boolean => true|false
+ 
+           a > b 
+           
+           
+           
+          System
+          Scanner
+          Math
+          String
+          StringBuffer
+          StringBuilder
+       
+       
+       Instance  => object
+       Class (static)    => by class name
+ 
+ Git: 
+    
+ Conditional: if,if-else, if-else-if
+ 
+ Iterative: for, while, do-while
+ Selection: switch 
+ 
+ if
+ if else
+ if else if
+ 
+ nested if conditions
+ 
+ 
+ bill_amount > 5000 20%
+ else 5%
+ 
+ 
+ if 
+else 
+if
+
+
+Logic operator
+
+&&   
+||
+!
+
+             a , b , c
+
+             big 
+
+	     if( a > b)
+                    big = a;
+	    else
+		  big = b;
+ 
+ Iterative:
+ 
+ for
+ while
+ do-while
+ 
+               for(int i = 1; i <= 10; i++){
+                  //Logic
+               }
+ 
+
+ 6 face Dice
+
+one of 1 - 6
+
+1. method with return type with argument
+
+	public int sum(int a, int b){
+		return 0;
+	}
+2. method with return type without argument
+
+        public int getRandomNumber(){
+		return 2;
+	}
+3. method with no return type with argument
+	public void printJob(String data){
+		
+	}
+4. method with no return type without argument                 
+	public void close(){
+		//Logic....
+	}
+	
+Arrays
+String,StringBuffer,StringBuilder
+Object Oriented Programming
+
+
+String:
+
+      String name = "CoreJava";
+      String name = new String("CoreJava");
+     
+      char[] ch = {'J','A','V','A};
+      String name = new String(ch);
+ 
+ String Objects Immutable:
+       Once object is create the content of object can't be modified.
+       
+       
+ = Assignment                  a = 10;
+ == Relational                 10 == 20  // Object it compares the references  obj1 == obj2
+ 
+ equals() => compares content of the object, Object class method =>overriden in string class
+   
+   
+ import java.lang
+ 
+ Every class super class Object
+ 
+ 
+ OOP:
+ 
+ It is type of programming. That is driven by modeling code(Class) and building unit(Object)
+ 
+                              Every thing is Object
+                              
+Class?
+     Class a blue print to build an Object
+     
+     
+
+Object?
+	An instance of class is called Object
+	
+	
+	Account acc = new Account(1001,"Lakshman",87656);
+	
+	
+Constructor:
+	It is special method, The job constructor is to initialize instance variable at the creating object
+	
+	1. Name of Constructor must be same as class name
+	2. There is no return types ( even void)
+	3. It can't be called by the programmer, it is called by JVM only once for the Object
+	4. Every class java compiler will provide default constructor. 
+	5. We can have our own constructor, this called user defined or parameterized constructor
+	6. Overloading is possible 
+
+Overloading:
+
+       1. No of parameters
+       2. Oder of parameters
+       3. Type of parameters
+       Must be different
+       
+ this: When we declare local variable and instance variable with same name, to access instance variables in local
+       scope we use "this"
+ 
+ this(): Is is used to call constructor of the same class from the another constructor with different params list   
+    	
+Methods:
+
+this
+this()
+
+OOP:
+
+1. Abstraction
+2. Encapsulation
+3. Inheritance
+4. Polymorphism
+ 
+ 
+ Overloading:
+ 
+ 	- Writing two or more methods with same name with different parameters list in class is called overloading
+ 	- It takes place in the same
+ 	- It should have different parameters
+ 	  	   1. No of parameters
+           2. Oder of parameters
+           3. Type of parameters
+    - It any have any access modifier
+    - It can throw any exception 
+    - Return type can change 
+ 
+ 
+ 
+ private > default > protected > public
+ 
+ 
+ Overriding:
+ 
+    - Overriding takes place in sub class
+    - Signature must be same:
+           1. No of parameters
+           2. Oder of parameters
+           3. Type of parameters 
+           
+    - Return type must be same, except co-variant type
+    - Access Modifier should be same or less restrictive he should not be more restrictive
+    - The exception should be same exception or without exception or narrow exception.  It shouldn’t be new or border exception
+ 
+  SOLID
+  
+  Wrapper classes 
+  
+  byte             - Byte
+  short            - Short
+  char                
+  int
+  float
+  double
+  long
+  boolean           - Boolean
+  
+  java.lang;
+  
+  java.lang.Object
+  
+  
+  .java
+  
+      1. One public class 
+  
+  super
+  super()
+  
+  final 
+  	
+  	class
+  	method
+  	variables
+  	local variable
+  	
+  	
+  static
+  
+   imports
+   blocks
+   methods
+   inner classes
+   variables
+  
+  
+  Type casting
+     - UP
+     - Down
+     
+  Auto-Boxing
+  UnBoxing
+  
+  Interface
+  Abstract classes
+  
+    1. Zero or more abstract methods
+    2. It has constructor (we can have User defined constructors)
+    3. Object creation not possible, but we can create reference variable
+    4. Instance variable and class variable
+    5. Abstract method can be called from the concrete method of the abstract class
+    6. Abstract class can't final
+    7. Abstract method can't be final or private
+    8. Inheritance is done by using "extends"
+    9. class can extend only one abstract class
+ 
+  Interface:
+    Interface type of class or it is contract between two parties which contains 
+    abstract, default method and final variables.
+    
+    1. Object creation not possible 
+    2. We can create reference variable
+    3. No Constructor
+    4. Interface needs to implemented using  "implements"
+    5. Class can implement multiple interfaces at a time
+    6. Interface can extend another interface
+    7. All variable in interface is final
+  
+  	method    :    public abstract 
+  	variables : public static final 
+  	
+  	Java 8    : default method
+  	
+      Printer
+      connect(){}
+      disconnect(){}
+      print();
+         IBM
+         DELL
+         HP
+         
+          AbstractGame
+   
+ 
+ WaterGame    LandGames  AirGames
+  
+ 
+ Ship             Car Bike 
+
+  Exceptions
+  
+  What is an Exception?
+  
+  
+  Exception
+  Bug
+  Error
+  
+  
+  Exceptions:
+  			 Unchecked: If any Exception class extends java.lang.RuntimeException class then  it is called unchecked exception 
+             Checked  : If any Exception class extends java.lang.Exception class then  it is called checked exception 
+             
+  
+  keywords:
+  
+           try
+           catch
+           finally
+           throw
+           throws
+           
+                                       Throwable
+                               
+                    Errors                               Exception
+                                             |                           |
+                                        IOException                RuntimeException
+                                        						          ArrayIndexOutOfBounsException
+                                        						          NullPointerException
+           
+           
+   
+   try-multiple catch
+   throw
+   throws
+   Custom - Exception
+   
+   
+   
+    TaskManager
+    
+           1. You can create Only one object 
+           2. Don't allow to clone
+           
+   Collection Framework
+   	
+   	collection 
+   	
+   	java.util
+	   
+	   Collection
+	   
+	   List=> ArrayList
+	   
+	   1. Ordered Collection
+	   2. Elements can inserted based index
+	   3. It allows duplicate 
+	   4. It allows null values
+	   
+	   Set => HashSet, LinkedHashSet
+	   
+	   1. Unordered 
+	   2. It doesn't duplicate
+	   3. Only single null is allowed
+	   
+	   Map => HashMap, HashTable
+	   
+	   1. Key and Value pair
+	   2. Key can't duplicate
+	   
+	   
+	   Comparable, Comparator
+	  
+	   Arrays
+	   Collections
+	   
+	java.util.stream 
+	
+	https://www.oracle.com/technical-resources/articles/java/ma14-java-se-8-streams.html
+	
+	 https://docs.oracle.com/javase/tutorial/java/generics/index.html
+	 
+	 
+	   Streams
+	   Lambda
+ 	
+ 
+   Files
+   Reflection API:
+          https://jsltech.blogspot.com/2012/05/reflection-api-in-java.html
+   Threads
+   JDBC
+-----------------------------------------------------------------------------------------------------------------------   
+ HTML, CSS, JavaScript, BootStrap, Angular9
+ -----------------------------------------------------------------------------------------------------------------------
+ Build tools:
+  Maven
+ 
+ Spring Framework
+  Core
+  MVC
+  REST
+      Splunk
+  Security
+ ------------------------------------------------------------------------------------------------------------------------
+ Deployment:
+ 
+  Jenkins
+  SonarCube
+  Heroku
+  
+   
+     
+           
+   
